@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css"/>
+    <script src="dieta.js"></script>
+    <title>Moje BMI</title>
+    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+</head>
+<body style='background-color: #2C2C2C;'>
+    <div id='strona'>
+    <header>Moje BMI</header>
+    <aside>
+        <nav>
+          <ul>
+            <li><a href="../html2/strona_glowna.html">Strona główna</a></li>
+            <li><a href="../html2/stan.html">Sprawdź swój stan</a></li>
+            <li><a href="../html2/kalorie.html">Kilokalorie</a></li>
+            <li><a href="../html2/postepy.html">Moje postępy</a></li>
+            <li><a href="../html2/dieta.html">Moja dieta</a></li>
+            <li><a href="../html2/w.html">Godzina W</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <section id="tresc">
+        <h1>Sprawdź ile kalorii dzisiaj spożyłeś.</h1>
+        <p>
+            Śniadanie:
+        </p>
+        <label>Wybierz z listy: </label>
+        <select id="mySelect">
+            <option value="379" id="1" selected>Płatki z mlekiem(miska)</option>
+            <option value="229" id="2">Parówka</option>
+            <option value="158" id="3">Kanapka</option>
+        </select>
+        <p></p>
+        <p>Podaj ilość:</p>
+        <input type="text" id="sniadanie">
+
+        <p></p>
+        <p>
+            Obiad:
+        </p>
+        <label>Wybierz z listy: </label>
+        <select id="mySelect1">
+            <option value="177" id="4" selected>Udko z kurczaka</option>
+            <option value="261" id="5">Kotlet schabowy</option>
+            <option value="289" id="6">Hot-dog</option>
+        </select>
+        <p></p>
+        <p>Podaj ilość:</p>
+        <input type="text" id="obiad">
+
+        <p></p>
+        <p>
+            Kolacja:
+        </p>
+        <label>Wybierz z listy: </label>
+        <select id="mySelect2">
+            <option value="379" id="7" selected>Płatki z mlekiem(miska)</option>
+            <option value="229" id="8">Parówka</option>
+            <option value="158" id="9">Kanapka</option>
+        </select>
+        <p></p>
+        <p>Podaj ilość:</p>
+        <input type="text" id="kolacja">
+
+        <p></p>
+        <button id="button">Przelicz</button>
+        <p></p>
+        <div id="wynik"></div>
+      
+      </section>
+    </div>
+      <footer>
+        <p>Gustaw Łączkowski, informatyka gr.2</p>
+      </footer>
+    
+</body>
+</html>

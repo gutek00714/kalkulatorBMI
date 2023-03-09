@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css"/>
+    <title>Moje BMI</title>
+    <script src="postepy.js"></script>
+    <!--<script src="zegar.js"></script>-->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+</head>
+<body style='background-color: #2C2C2C;'>
+    <div id='strona'>
+    <header>Moje BMI</header>
+    <aside>
+        <nav>
+          <ul>
+            <li><a href="../html2/strona_glowna.html">Strona główna</a></li>
+            <li><a href="../html2/stan.html">Sprawdź swój stan</a></li>
+            <li><a href="../html2/kalorie.html">Kilokalorie</a></li>
+            <li><a href="../html2/postepy.html">Moje postępy</a></li>
+            <li><a href="../html2/dieta.html">Moja dieta</a></li>
+            <li><a href="../html2/w.html">Godzina W</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <section id="tresc">
+        <h1>Moje postępy</h1>
+        <form onsubmit="insertData2(this)">
+            <label for="wzrost">Wzrost:</label>
+            <input type="text" id="wzrost">
+            <label for="waga">Waga:</label>
+            <input type="text" id="waga">
+            <button id="button">Dodaj</button> 
+
+        </form>
+        <table id="tabela">
+            <tr>
+              <th>Waga</th>
+              <th>Wzrost</th>
+              <th>BMI</th>
+              <th>Data_badania</th>
+            </tr>
+            
+            
+          </table>
+      
+      </section>
+    </div>
+      <footer>
+        <p>Gustaw Łączkowski, informatyka gr.2</p>
+      </footer>
+    
+</body>
+</html>
